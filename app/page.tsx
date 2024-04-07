@@ -1,10 +1,12 @@
+// Home.tsx
+import HeroPage from "@/components/Home/Hero";
 import Header from "@/components/Header";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <main className="flex flex-col overflow-y-hidden">
       <Header/>
-    </div>
+      <HeroPage />
+    </main>
   );
 }
