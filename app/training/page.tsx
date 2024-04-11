@@ -1,9 +1,10 @@
+import Training from '@/components/Training/Training'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>
-      
+    <div className='min-h-screen'>
+      <Training/>
     </div>
   )
 }
