@@ -19,10 +19,10 @@ const Header: React.FC = () => {
           <li><a href="/about" className="hover:text-zinc-500 bg-green-400 text-black border-white py-2 border-[1px] px-2">About</a></li>
           <li><a href="/books" className="hover:text-zinc-500 bg-green-400 text-black border-white py-2 border-[1px] px-2">Books</a></li>
           <li className="relative">
-            <a href="/research" onClick={toggleSubmenu} className="hover:text-zinc-500 bg-green-400 text-black border-white py-2 border-[1px] px-2">Research</a>
-            <ul className={`submenu absolute p-2 space-y-1 bg-green-400 text-zinc-200 border-white px-4 py-2 ${showSubmenu ? 'block' : 'hidden'}`}>
-              <li><a href="/project" className="hover:text-zinc-500 bg-green-400 text-black border-white py-2 border-[1px] px-2">Projects</a></li>
-              <li><a href="/internship" className="hover:text-zinc-500 bg-green-400 text-black border-white py-2 border-[1px] px-2">Internship</a></li>
+            <a href="" onClick={toggleSubmenu} className="hover:text-zinc-500 bg-green-400 text-black border-white py-2 border-[1px] px-2">Research</a>
+            <ul className={`submenu absolute p-2 space-y-1 bg-green-400 text-zinc-200 border-transparent px-4 py-2 ${showSubmenu ? 'block' : 'hidden'}`}>
+              <li><a href="/project" className="hover:text-zinc-500 bg-green-400 text-black border-transparent py-2 border-[1px] px-2">Projects</a></li>
+              <li><a href="/internship" className="hover:text-zinc-500 bg-green-400 text-black border-transparent py-2 border-[1px] px-2">Internship</a></li>
             </ul>
           </li>
           <li><a href="/training" className="hover:text-zinc-500 bg-green-400 text-black border-white py-2 border-[1px] px-2">Training</a></li>
